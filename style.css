@@ -1,0 +1,55 @@
+/* ── NAVBAR ── */
+* {
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar img {
+    height: 40px;
+    display: block;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .nav-links a img,
+  .nav-home img {
+    height: 40px;
+    transition: transform 0.2s;
+  }
+  
+  .nav-links a img:hover,
+  .nav-home img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* ── NEXT BUTTON ── */
+  .next-btn {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 100;
+  }
+  
+  .next-btn img {
+    height: 60px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .next-btn img:hover {
+    transform: scale(1.08);
+  }
